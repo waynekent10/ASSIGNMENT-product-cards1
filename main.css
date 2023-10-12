@@ -1,7 +1,16 @@
+.container{
+    flex-wrap: wrap;
+    display: flex;
+}
 header{
     text-align: center;
 }
 section{color: yellow;
     background-color: gray;
+    text-align: right;
 
+}
+
+column{
+    display: flex;
 }
