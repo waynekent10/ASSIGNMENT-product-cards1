@@ -1,6 +1,10 @@
 .container{
-    flex-wrap: wrap;
+    flex-direction: row;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 100px;
+
 }
 header{
     text-align: center;
@@ -10,7 +14,6 @@ section{color: yellow;
     text-align: right;
 
 }
-
-column{
-    display: flex;
+.column{
+    float: left;
 }
