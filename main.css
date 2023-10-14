@@ -1,7 +1,10 @@
 .container{
-    flex-wrap: wrap;
+    flex-direction: row;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+
 }
 body{
     background-color: darkgrey;
@@ -9,12 +12,67 @@ body{
 header{
     text-align: center;
 }
-/*section{color: yellow;
-    background-color: gray;
-    text-align: right;
-
+.card{
+    width: 400px;
+    height: auto;
+    background-color: white;
+    margin: 10px;
+    border: solid 1px lightblue;
 }
+.header {
+    border: solid 1px lightblue;
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+  }
+  
+  .image{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .availability {
+    width: 394px;
+    background-color: red;
+    color: black;
+    font-weight: bolder;
+    padding: 8px;
+  }
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+   
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .description {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 5px 10px;;
+  }
+  
 
-column{
-    display: flex;
-}
+  .specifications{
+    padding: 0px 12px;
+  }
+  
+  .quantities {
+    padding: 0px 20px;
+    font-size: 20px;
+  }
+  
+  .footer {
+    padding: 5px;
+    font-style: italic;
+  }
