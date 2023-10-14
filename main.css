@@ -3,17 +3,87 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+
+    gap: 10px;
+
+}
+body{
+    background-color: darkgrey;
+
     gap: 100px;
 
 }
 header{
     text-align: center;
 }
-section{color: yellow;
-    background-color: gray;
-    text-align: right;
-
+.card{
+    width: 400px;
+    height: auto;
+    background-color: white;
+    margin: 10px;
+    border: solid 1px lightblue;
 }
+
+.header {
+    border: solid 1px lightblue;
+    text-align: center;
+    font-weight: 700;
+    font-size: x-large;
+  }
+  .weight{
+    font-size: 30px;
+    padding: 0px 12px;
+  }
+  .image{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .availability {
+    width: 394px;
+    background-color: red;
+    color: black;
+    font-weight: bolder;
+    padding: 8px;
+  }
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+   
+  }
+  
+  .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .description {
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 5px 10px;;
+  }
+  
+
+  .specifications{
+    padding: 0px 12px;
+  }
+  
+  .quantities {
+    padding: 0px 20px;
+    font-size: 20px;
+  }
+  
+  .footer {
+    padding: 5px;
+    font-style: italic;
+  }
 .column{
     float: left;
 }
@@ -22,3 +92,4 @@ section{color: yellow;
     height: 15rem;
     object-fit: cover;
 }
+
