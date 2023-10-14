@@ -25,7 +25,10 @@ header{
     font-weight: 700;
     font-size: x-large;
   }
-  
+  .weight{
+    font-size: 30px;
+    padding: 0px 12px;
+  }
   .image{
     position: relative;
     top: 0;
