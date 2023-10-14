@@ -1,11 +1,15 @@
 .container{
     flex-wrap: wrap;
     display: flex;
+    justify-content: space-around;
+}
+body{
+    background-color: darkgrey;
 }
 header{
     text-align: center;
 }
-section{color: yellow;
+/*section{color: yellow;
     background-color: gray;
     text-align: right;
 
